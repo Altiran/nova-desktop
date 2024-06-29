@@ -1,0 +1,78 @@
+.vbox {
+    -fx-background-color: rgb(47, 54, 61);
+    -fx-padding: 10;
+}
+
+.util__width__250 {
+    -fx-min-width: 150;
+    -fx-max-width: 150;
+}
+
+.quit__button {
+    -fx-graphic: "https://image.ibb.co/dFbd2J/power.png";
+    -fx-max-height: 50;
+    -fx-max-width: 50;
+    -fx-pref-height: 50;
+    -fx-cursor: hand;
+    -fx-background-color: transparent;
+}
+
+.list-view {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: transparent, -fx-control-inner-background;
+    -fx-background-insets: 0, 1;
+}
+
+.white_text {
+    -fx-fill: white;
+    -fx-font-size: 18;
+}
+
+.list-view .list-cell:even {
+    -fx-background-color: rgb(47, 50, 53);
+    -fx-text-fill: white;
+}
+
+.list-view .list-cell:odd {
+    -fx-background-color: rgb(29, 33, 37);
+    -fx-text-fill: white;
+}
+
+.list-view .scroll-bar .increment-arrow,
+.list-view .scroll-bar .decrement-arrow,
+.list-view .scroll-bar .increment-button,
+.list-view .scroll-bar .decrement-button {
+    -fx-padding: 0;
+}
+
+.textField {
+    -fx-background-color: rgb(29, 33, 37);
+    -fx-border-radius: 10;
+    -fx-max-height: 250;
+    -fx-text-fill: #ffffff;
+    -fx-max-width: 250;
+}
+
+.textField .content {
+    -fx-background-color: rgb(29, 33, 37);
+    -fx-text-fill: #ffffff;
+}
+
+.combo-box .cell {
+    -fx-background-color: rgb(29, 33, 37);
+    -fx-text-fill: #ffffff;
+}
+
+.postButton {
+    -fx-background-color: #292929;
+    -fx-text-fill: #e1e1e1;
+    -fx-min-width: 250;
+    -fx-cursor: hand;
+}
+
+.playButton {
+    -fx-background-color: #292929;
+    -fx-text-fill: #e1e1e1;
+    -fx-min-width: 150;
+    -fx-cursor: hand;
+}
